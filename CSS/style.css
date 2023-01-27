@@ -1,0 +1,143 @@
+body
+{
+    background-color: rgb(247, 247, 247);
+}
+
+.navbar
+{
+    background-color: navy;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px ;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+
+.navy
+{
+    background-color: rgb(0, 0, 82);
+}
+
+.list-lang
+{
+    list-style: none;
+}
+
+#mycard
+{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px ;
+}
+.card-img-top
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.progress
+{
+    width: 85%;
+    border-radius: 10px;
+}
+
+.top-band
+{
+    background-color: rgb(0, 0, 218);
+    background-image: url("../images/jumbo-img.jpg");
+    background-position: 50%;
+    height: 200px;
+}
+
+.ex-intro-left
+{
+    background-image: url("../images/table-top.jpg");
+    background-size: cover;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder !important;
+    padding-top: 10%;
+    font-size: larger !important;
+}
+.sm-white-text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.ex-form-rigth
+{
+    height: 630px;
+    border: solid rgb(146, 146, 146);
+    border-width: .5px;
+    border-radius: 15px;
+}
+
+::placeholder
+{
+    color: lightgray;
+}
+
+
+.second-half-page
+{
+    height: 650px;
+    background-color: rgb(0, 0, 48);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.scroll-img
+{
+    height: 400px;
+    width: 70%;
+    background-color: rgb(30, 30, 30);
+    margin: auto;
+    border: double navy ;
+    border-radius: 10px;
+    box-shadow: navy 0px 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px)
+{
+    .navbar-brand
+    {
+        display: block !important ;
+        font-family: 'Lexend Mega', sans-serif;
+    }
+
+    .nav
+    {
+        display: inline-flex !important; 
+        flex-direction: column !important;
+        text-align: center !important;
+        width: 100%;
+        border-top: solid white;
+        padding-top: 5px;
+    }
+    .ex-right-side
+    {
+        margin-top: 100px;
+        padding: 0%;
+    }
+
+    #le-cercle
+    {
+        height: 40px;
+    }
+
+    .scroll-img
+    {
+        width: 98%;
+    }
+}
